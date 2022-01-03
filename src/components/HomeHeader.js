@@ -74,7 +74,7 @@ const HomeHeader = () => {
                 <div className="homeHeaderBox_Content__DownMenu">
                     <div className="downMenuTop">
                         <div className="downMenuTop_content">
-                            Zacznij pomagać <br/> Oddaj niechciane rzeczy w zaufane ręce
+                            Zacznij pomagać <br/>Oddaj niechciane rzeczy w zaufane ręce
                         </div>
                         <img src={Decoration} alt="Decoration sign"/>
                     </div>
