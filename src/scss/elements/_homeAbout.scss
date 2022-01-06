@@ -7,6 +7,7 @@
     margin-top: 80px;
     display: flex;
     margin-bottom: 70px;
+
     &_content {
       background-color: $section-color;
       width: 958px;
@@ -15,16 +16,19 @@
       flex-direction: column;
       justify-content: center;
       align-items: center;
+
       &__title {
         font-family: $font-base;
         font-size: 38px;
         letter-spacing: -0.76px;
         line-height: 55px;
         color: $text-color;
+
       }
       &__img {
           margin-top: 26px;
       }
+
       &__text {
           margin-top: 55px;
           width: 656.9px;
@@ -41,6 +45,7 @@
           margin-left: 441.75px;
       }
     }
+    
     &_image {
         width: 942px;
         height: 100%;

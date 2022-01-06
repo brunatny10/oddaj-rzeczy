@@ -5,21 +5,25 @@
   width: 1900px;
   height: 963px;
   display: flex;
+
   &_Image {
     width: 885px;
     background-position: -483px;
   }
+
   &_Content {
     width: 873px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+
     &__UpMenu {
       width: 683px;
       height: 95px;
       margin-top: 37px;
       margin-left: 190px;
+
     }
     &__DownMenu {
       width: 674px;
@@ -30,24 +34,25 @@
     }
   }
 }
+
 .upMenuTop {
   width:158px ;
   height:36px ;
   margin-bottom: 17px;
-  margin-left: 525px;
+  margin-left: 510px;
   display: flex;
+
   &_Box1 {
     width: 68px;
     height: 36px;
     font-size: 14px;
     line-height: 85px;
-    color:#737373;
     color:$text2-color;
-    color:#737373;
     display: flex;
     justify-content: center;
     align-items: center;
     font-family: $font-base;
+
     &:hover {
       border: 0.75px solid #FAD648;
       border: 0.75px solid $hover-color;
@@ -62,6 +67,7 @@
     align-items: center;
     justify-content: center;
     font-family: $font-base,sans-serif;
+
     &:hover {
       border: 0.75px solid #FAD648;
       border: 0.75px solid $hover-color;
@@ -73,17 +79,18 @@
   height: 42px;
   display: flex;
   align-items: center;
+
   &_Box {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-grow: 1;
-    color:#3C3C3C;
-    color:$text-color;
+    color: $text2-color;
     font-size: 18px;
     line-height: 24px;
     height: 42px;
     font-family: $font-base,sans-serif;
+
     &:hover {
       border: 0.75px solid #3C3C3C;
       border: 0.75px solid $hover2-color;
@@ -97,6 +104,7 @@
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+
   &_content {
     width: 100%;
     height: 107px;
@@ -114,6 +122,7 @@
   justify-content: space-around;
   justify-content: space-between;
   align-items: flex-end;
+
   &_Box {
     display: flex;
     justify-content: center;
@@ -133,8 +142,7 @@
   cursor: pointer;
 }
 
-.Link2 {
-  text-decoration: none;
-  color:#737373 ;
-  color:$text2-color ;
+.ScrollLink {
+  text-decoration: none;  
+  color: $text2-color ;
 } 
