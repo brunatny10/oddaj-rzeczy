@@ -12,7 +12,7 @@ const Home = () => {
          <HomeThreeColumns/>
          <HomeSimpleSteps/>
          <HomeAbout/>
-         <HomeWhoWeHelp/>
+         <HomeWhoHelp/>
          <HomeContact/>
         </> 
     );   
