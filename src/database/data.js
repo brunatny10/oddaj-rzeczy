@@ -56,32 +56,32 @@ const data = {
                 "things": "ubrania, jedzenie, ciepłe koce"
             },
             {
-                "title": "Fundacja “Lorem Ipsum 1”",
+                "title": "Fundacja “WOŚP”",
                 "subtitle": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
                 "things": "ubrania, jedzenie, ciepłe koce"
             },
             {
-                "title": "Fundacja “Lorem Ipsum 2”",
+                "title": "Fundacja “Pomagaj”",
                 "subtitle": "Cel i misja: Pomoc dzieciom z ubogich rodzin.",
                 "things": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
             },
             {
-                "title": "Fundacja “Lorem Ipsum 3”",
+                "title": "Fundacja “Dla Ciebie”",
                 "subtitle": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.",
                 "things": "ubrania, meble, zabawki"
             },
             {
-                "title": "Fundacja “Lorem Ipsum 4”",
+                "title": "Fundacja “Podaruj coś”",
                 "subtitle": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
                 "things": "ubrania, jedzenie, sprzęt AGD, meble, zabawki"
             },
             {
-                "title": "Fundacja “Lorem Ipsum 5”",
+                "title": "Fundacja “Dziękujemy”",
                 "subtitle": "Cel i misja: Pomoc dzieciom z ubogich rodzin.",
                 "things": "ubrania, meble, zabawki"
             },
             {
-                "title": "Fundacja “Lorem Ipsum 6”",
+                "title": "Fundacja “Miejsce dla”",
                 "subtitle": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.",
                 "things": "ubrania, jedzenie, ciepłe koce"
             },

@@ -23,8 +23,8 @@
       height: 95px;
       margin-top: 37px;
       margin-left: 190px;
-
     }
+
     &__DownMenu {
       width: 674px;
       height: 350px;
@@ -36,8 +36,8 @@
 }
 
 .upMenuTop {
-  width:158px ;
-  height:36px ;
+  width: 158px;
+  height: 36px;
   margin-bottom: 17px;
   margin-left: 510px;
   display: flex;
@@ -54,10 +54,10 @@
     font-family: $font-base;
 
     &:hover {
-      border: 0.75px solid #FAD648;
       border: 0.75px solid $hover-color;
     }
   }
+
   &_Box2 {
     width: 90px;
     height: 36px;
@@ -69,11 +69,50 @@
     font-family: $font-base,sans-serif;
 
     &:hover {
-      border: 0.75px solid #FAD648;
       border: 0.75px solid $hover-color;
     }
   }
 }
+
+.upMenuTopLogged {
+  width: 356px;
+  height: 36px;
+  margin-bottom: 17px;
+  margin-left: 327px;
+  display: flex;
+  align-items: center;
+
+  &_Email {
+    font-size: 14px;
+    line-height: 19px;
+    color: #000;
+    margin-right: 10px;
+  }
+
+  &_Box1 {
+    width: 90px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 13px;
+    color: #000;
+    border: 1px solid $hover-color;
+  }
+
+  &_Box2 {
+    width: 90px;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    line-height: 15px;
+    color: #737373;
+    cursor: pointer;
+  }
+}
+
 .upMenuDown {
   width: 683px;
   height: 42px;
@@ -92,11 +131,11 @@
     font-family: $font-base,sans-serif;
 
     &:hover {
-      border: 0.75px solid #3C3C3C;
       border: 0.75px solid $hover2-color;
     }
   }
 }
+
 .downMenuTop {
   height: 165px;
   width: 100%;
@@ -115,6 +154,7 @@
     line-height: 55px;
   }
 }
+
 .downMenuDown {
   height: 185px;
   width: 100%;
@@ -133,15 +173,16 @@
     font-family: $font-base;
     font-weight: lighter;
     text-align: center;
-    border: 1px solid #3C3C3C;
+    border: 1px solid $after-border-color;
     text-transform: uppercase;
   }
 }
-.Link1 {
+
+.Link {
   cursor: pointer;
 }
 
 .ScrollLink {
-  text-decoration: none;  
-  color: $text2-color ;
-} 
+  text-decoration: none;
+  color: $text2-color;
+}

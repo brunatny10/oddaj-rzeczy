@@ -86,7 +86,7 @@ const HomeWhoWeHelp = () => {
                 <div id="HomeWhoWeHelp" className="homeWhoWeHelpBox">
                     <div className="homeWhoWeHelpBox_title">
                         <div className="homeWhoWeHelpBox_title__content">
-                            Komu pomagamy ?
+                            Komu pomagamy?
                         </div>
                         <img
                             src={Decoration}
