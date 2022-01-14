@@ -36,11 +36,12 @@ const HomeContact= () => {
                     <img
                         src={Facebook}
                         alt="Facebook-sign"
+                        
                     />
                     <img
                         src={Instagram}
                         alt="Instagram-sign"
-                    />
+                   />
                 </div>
             </div>
         </div>

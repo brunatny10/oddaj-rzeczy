@@ -4,7 +4,7 @@ import Home from "./components/Home";
 import SignIn from "./components/SignIn";
 import Register from "./components/Register";
 import SignOut from "./components/SignOut";
-import Form from "./components/Form/Form";
+//import Form from "./components/Form/Form";
 
 function App() {
   return(
@@ -14,7 +14,7 @@ function App() {
             <Route exact path="/logowanie" element={<SignIn />}/>
             <Route exact path="/rejestracja" element={<Register />}/>
             <Route exact path="/wylogowano" element={<SignOut />}/>
-            <Route exact path="/oddaj-rzeczy" element={<Form />}/>
+            
         </Routes>
       </BrowserRouter>
   );
